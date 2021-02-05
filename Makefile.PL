@@ -14,8 +14,16 @@ WriteMakefile(
     LICENSE => 'perl_5',
     MIN_PERL_VERSION => '5.008',
     META_MERGE => {
+        'meta-spec' => { version => 2 },
         resources => {
-            repository => 'http://github.com/gisle/tkx/',
+            repository => {
+                type => 'git',
+                web => 'https://github.com/chrstphrchvz/tkx',
+                url => 'https://github.com/chrstphrchvz/tkx.git',
+            },
+            bugtracker => {
+                web => 'https://github.com/chrstphrchvz/tkx/issues',
+            },
             MailingList => 'mailto:tcltk@perl.org',
         },
     },
