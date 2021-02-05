@@ -11,7 +11,7 @@ WriteMakefile(
     },
     AUTHOR => 'Gisle Aas <gisle@activestate.com>',
     EXE_FILES => [qw(tkx-ed tkx-prove)],
-    LICENSE => "perl",
+    LICENSE => 'perl_5',
     MIN_PERL_VERSION => 5.008,
     META_MERGE => {
 	resources => {
