@@ -1,5 +1,6 @@
-#!perl -w
+#!perl
 
+use warnings;
 use strict;
 use Test qw(plan ok);
 
