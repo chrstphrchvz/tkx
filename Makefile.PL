@@ -7,17 +7,17 @@ WriteMakefile(
     VERSION_FROM => 'lib/Tkx.pm',
     ABSTRACT_FROM => 'lib/Tkx.pm',
     PREREQ_PM => {
-	Tcl => 1.00,
+        Tcl => '1.00',
     },
     AUTHOR => 'Gisle Aas <gisle@activestate.com>',
     EXE_FILES => [qw(tkx-ed tkx-prove)],
     LICENSE => 'perl_5',
-    MIN_PERL_VERSION => 5.008,
+    MIN_PERL_VERSION => '5.008',
     META_MERGE => {
-	resources => {
+        resources => {
             repository => 'http://github.com/gisle/tkx/',
-	    MailingList => 'mailto:tcltk@perl.org',
-        }
+            MailingList => 'mailto:tcltk@perl.org',
+        },
     },
 );
 
