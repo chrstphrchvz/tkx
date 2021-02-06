@@ -1,5 +1,7 @@
 package Tkx::LabEntry;
 
+use strict;
+
 use base qw(Tkx::widget Tkx::MegaConfig);
 
 __PACKAGE__->_Mega("tkx_LabEntry");
