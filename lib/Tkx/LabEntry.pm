@@ -1,6 +1,7 @@
 package Tkx::LabEntry;
 
 use strict;
+our $VERSION = '1.10';
 
 use base qw(Tkx::widget Tkx::MegaConfig);
 
