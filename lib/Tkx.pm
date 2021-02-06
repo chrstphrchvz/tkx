@@ -335,7 +335,7 @@ sub call {
            my $i = 1;
            my($pkg, $file, $line);
            while (($pkg, $file, $line) = caller($i)) {
-               last if $pkg !~ /^Tkx(::|$)/;
+               last if $pkg !~ m/^Tkx(::|$)/;
                $i++;
            };
            $@ .= " at $file line $line.\n";
