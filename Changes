@@ -1,5 +1,13 @@
 2021-02-12   Christopher A. Chavez <chrischavez@gmx.us>
 
+     Release 1.10_02
+
+     Add tcl-callback0.t to MANIFEST
+
+
+
+2021-02-12   Christopher A. Chavez <chrischavez@gmx.us>
+
      Release 1.10_01
 
      Add tcl-callback0.t: Tcl.pm-only equivalent of tcl-callback.t
