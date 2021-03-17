@@ -1,3 +1,14 @@
+2021-03-17   Christopher A. Chavez <chrischavez@gmx.us>
+
+     Release 1.10_03
+
+     Makefile.PL: Add Tcl/Tk check (via Tcl.pm) to prevent FAIL reports
+     from CPAN testers without a working Tcl/Tk installation;
+     use --no-test-for-tk to skip the check.
+     https://github.com/chrstphrchvz/tkx/issues/2
+
+
+
 2021-02-12   Christopher A. Chavez <chrischavez@gmx.us>
 
      Release 1.10_02
